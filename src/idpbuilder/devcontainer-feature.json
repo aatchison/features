@@ -1,0 +1,19 @@
+{
+    "name": "idpbuilder",
+    "id": "idpbuilder",
+    "version": "1.0.0",
+    "description": "Install cnoe-io/idbuilder binary",
+    "options": {
+        "releaseVersion": {
+            "type": "string",
+            "proposals": [
+                "v3.0.0"
+            ],
+            "default": "v3.0.0",
+            "description": "Select release version of idpbuilder published at https://github.com/cnoe-io/idpbuilder"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
