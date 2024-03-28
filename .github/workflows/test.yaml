@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: "install curl"
-        run: apt-get install -y curl
+        run: sudo apt-get install -y curl
 
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
@@ -57,7 +57,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: "install curl"
-        run: apt-get install -y curl
+        run: sudo apt-get install -y curl
 
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
