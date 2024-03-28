@@ -7,9 +7,9 @@
         "releaseVersion": {
             "type": "string",
             "proposals": [
-                "v3.0.0"
+                "v0.3.0"
             ],
-            "default": "v3.0.0",
+            "default": "v0.3.0",
             "description": "Select release version of idpbuilder published at https://github.com/cnoe-io/idpbuilder"
         }
     },

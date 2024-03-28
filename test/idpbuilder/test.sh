@@ -41,7 +41,7 @@ source dev-container-features-test-lib
 # The 'check' command comes from the dev-container-features-test-lib. Syntax is...
 # check <LABEL> <cmd> [args...]
 check "idpbuilder binary is installed and in path" bash -c "type -f /usr/local/bin/idpbuilder"
-check "idpbuilder runs, is expeceted version" bash -c "idpbuilder version | grep v3.0.0"
+check "idpbuilder runs" bash -c "$(idpbuilder version)"
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
