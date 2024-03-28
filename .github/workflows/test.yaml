@@ -15,6 +15,7 @@ jobs:
         features:
           - color
           - hello
+          - idpbuilder
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -36,6 +37,7 @@ jobs:
         features:
           - color
           - hello
+          - idpbuilder
     steps:
       - uses: actions/checkout@v3
 
