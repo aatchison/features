@@ -1,11 +1,9 @@
 {
-    "hello": {
+    "idpbuilder": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "idpbuilder": {
-                "options": {
                     "releaseVersion": "v0.3.0"
-                }
             }
         }
     }
