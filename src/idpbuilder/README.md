@@ -7,7 +7,7 @@ Install cnoe-io/idbuilder binary
 
 ```json
 "features": {
-    "ghcr.io/aatchison/features/idpbuilder:1": {}
+    "ghcr.io/aatchison/features/idpbuilder:2": {}
 }
 ```
 
