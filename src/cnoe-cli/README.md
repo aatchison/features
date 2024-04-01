@@ -1,5 +1,5 @@
 
-# idpbuilder (cnoe-cli)
+# cnoe-cli (cnoe-cli)
 
 Install cnoe-io/cnoe-cli binary
 
@@ -15,10 +15,10 @@ Install cnoe-io/cnoe-cli binary
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| releaseVersion | Select release version of idpbuilder published at https://github.com/cnoe-io/cnoe-cli | string | v0.1.0 |
+| releaseVersion | Select release version of cnoe-cli published at https://github.com/cnoe-io/cnoe-cli | string | v0.1.0 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aatchison/features/blob/main/src/idpbuilder/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aatchison/features/blob/main/src/cnoe-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
