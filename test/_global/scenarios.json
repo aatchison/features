@@ -1,12 +1,12 @@
 {
-    "color_and_hello": {
+    "cnoe-cli_and_idpbuilder": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
+            "idpbuilder": {
+                "releaseVersion": "v0.3.0"
             },
-            "hello": {
-                "greeting": "Greetings"
+            "cnoe-cli": {
+                "releaseVersion": "v0.1.0"
             }
         }
     }
