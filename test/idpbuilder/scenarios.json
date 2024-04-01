@@ -3,7 +3,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "idpbuilder": {
-                    "releaseVersion": "v0.1.0"
+                    "releaseVersion": "v0.3.0"
             }
         }
     }

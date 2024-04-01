@@ -40,8 +40,8 @@ source dev-container-features-test-lib
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib. Syntax is...
 # check <LABEL> <cmd> [args...]
-check "idpbuilder binary is installed and in path" bash -c "type -f /usr/local/bin/idpbuilder"
-check "idpbuilder runs" bash -c "$(idpbuilder version)"
+check "idpbuilder binary is installed and in path" bash -c "type -f /usr/local/bin/cnoe"
+check "idpbuilder runs" bash -c "$(cnoe version)"
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
