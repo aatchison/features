@@ -1,8 +1,8 @@
 {
-    "idpbuilder": {
+    "cnoe-cli": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "idpbuilder": {
+            "cnoe-cli": {
                     "releaseVersion": "v0.3.0"
             }
         }
