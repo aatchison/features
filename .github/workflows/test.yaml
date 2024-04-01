@@ -16,6 +16,7 @@ jobs:
           - color
           - hello
           - idpbuilder
+          - cnoe-cli
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -38,6 +39,7 @@ jobs:
           - color
           - hello
           - idpbuilder
+          - cnoe-cli
     steps:
       - uses: actions/checkout@v3
 

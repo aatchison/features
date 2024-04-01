@@ -1,0 +1,10 @@
+{
+    "cnoe-cli": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "cnoe-cli": {
+                    "releaseVersion": "v0.1.0"
+            }
+        }
+    }
+}
