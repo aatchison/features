@@ -15,7 +15,7 @@ Install cnoe-io/idbuilder binary
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| releaseVersion | Select release version of idpbuilder published at https://github.com/cnoe-io/idpbuilder | string | v0.3.0 |
+| releaseVersion | Select release version of idpbuilder published at https://github.com/cnoe-io/idpbuilder | string | v0.7.0 |
 
 
 
