@@ -1,0 +1,22 @@
+{
+    "name": "teleport",
+    "id": "teleport",
+    "version": "1.0.0",
+    "description": "Install Teleport client tools (tsh and tctl)",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": ["latest"],
+            "default": "latest",
+            "description": "Teleport version to install (e.g. 18.7.2), or 'latest'"
+        },
+        "installTctl": {
+            "type": "boolean",
+            "default": true,
+            "description": "Also install tctl (admin CLI) alongside tsh"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

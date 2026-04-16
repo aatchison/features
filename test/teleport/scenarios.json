@@ -1,0 +1,19 @@
+{
+    "teleport": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "teleport": {
+                "version": "18.7.2"
+            }
+        }
+    },
+    "teleport_no_tctl": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "teleport": {
+                "version": "18.7.2",
+                "installTctl": false
+            }
+        }
+    }
+}
