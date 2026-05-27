@@ -15,6 +15,7 @@ jobs:
         features:
           - idpbuilder
           - cnoe-cli
+          - teleport
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -36,6 +37,7 @@ jobs:
         features:
           - idpbuilder
           - cnoe-cli
+          - teleport
     steps:
       - uses: actions/checkout@v3
 
